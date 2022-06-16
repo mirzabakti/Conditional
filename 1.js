@@ -7,3 +7,10 @@
 
 let string = 'abcde';
 // your code here
+if (string.length % 2 == 0) {
+    console.log("WOHO");
+} else if (string.length % 2 == 1) {
+    console.log("OHOW");
+} else {
+    console.log("ERROR")
+}

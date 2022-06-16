@@ -6,5 +6,15 @@
 
  */
 
-let harga = 10000;
+let harga = 100000;
 // your code here
+
+if (harga < 1) {
+    console.log("TIDAK VALID");
+} else if (harga >= 1 && harga <= 100000) {
+    console.log("MURAH BANGET");
+} else if (harga > 100000) {
+    console.log("MAHAL BANGET");
+} else {
+    console.log("Silakan masukan nominal harga dalam angka")
+}
